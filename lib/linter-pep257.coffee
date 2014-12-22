@@ -11,6 +11,7 @@ class Linterpep257 extends Linter
   executablePath: null
   linterName: 'pep257'
   errorStream: 'stderr'
+  defaultLevel: 'info'
 
   # Regex to capture output such as:
   #   /Path/to/file.py:1 at module level:
